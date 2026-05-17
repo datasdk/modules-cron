@@ -1,0 +1,35 @@
+{
+    "name": "nwidart/cron",
+    "description": "Cron / scheduler module",
+    "type": "library",
+    "require": {
+        "studio/laravel-totem": "^11.1"
+    },
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "dont-discover": [],
+            "providers": [],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Cron\\": "",
+            "Modules\\Cron\\Database\\Factories\\": "database/factories/",
+            "Modules\\Cron\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Cron\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
