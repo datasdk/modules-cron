@@ -1,14 +1,17 @@
 {
-    "name": "nwidart/cron",
+    "name": "datasdk/cron-module",
+    "type": "laravel-module",
+    "license": "proprietary",
+
     "description": "Cron / scheduler module",
-    "type": "library",
+
     "require": {
         "studio/laravel-totem": "^11.1"
     },
     "authors": [
         {
-            "name": "Nicolas Widart",
-            "email": "n.widart@gmail.com"
+            "name": "Kasper L. Kristiansen",
+            "email": "info@datas.dk"
         }
     ],
     "extra": {
